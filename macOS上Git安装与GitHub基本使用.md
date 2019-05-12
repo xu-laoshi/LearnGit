@@ -6,7 +6,7 @@
 
 首先看看你自己电脑之前有没有安装过Git，在终端输入git，如果出现以下就表示之前安装过（我自己都没印象自己啥时候装过的23333）
 
-![img](/Users/xujiajie/git/LearnGit/resources/1493506-20181013140900506-1474309394.png)
+![img](resources/1493506-20181013140900506-1474309394.png)
 
  
 
@@ -62,7 +62,7 @@ Mac OS X是基于Unix的，它可以使用非常多Linux平台上开源的优秀
 
 ​      `ssh-keygen -t rsa -C "1428173426@qq.com"`
 
-​    *![img](/Users/xujiajie/git/LearnGit/resources/1493506-20181013143233189-204003889.png)*
+​    *![img](resources/1493506-20181013143233189-204003889.png)*
 
 由于这里我原来已经创建过，这里我选n，没有创建过的，会要求确认路径和输入密码，我们这使用默认的一路回车就行。成功的话会在~/下生成.ssh文件夹，进去，打开id_rsa.pub，复制里面的key
 
@@ -78,13 +78,13 @@ Mac OS X是基于Unix的，它可以使用非常多Linux平台上开源的优秀
 
 3)登录GitHub（没注册的就先注册），添加ssh key，点击Settings，如图：
 
-​    ![img](/Users/xujiajie/git/LearnGit/resources/1493506-20181013144311067-1647740102.png)
+​    ![img](resources/1493506-20181013144311067-1647740102.png)
 
  
 
   然后添加SSH Key
 
-![img](/Users/xujiajie/git/LearnGit/resources/1493506-20181013144423995-1334229603.png)
+![img](resources/1493506-20181013144423995-1334229603.png)
 
  
 
@@ -106,19 +106,19 @@ Mac OS X是基于Unix的，它可以使用非常多Linux平台上开源的优秀
 
 1）在GitHub上新创建一个 repository或者Start a Project，如图：
 
-  ![img](/Users/xujiajie/git/LearnGit/resources/1493506-20181013145039575-304377688.png)
+  ![img](resources/1493506-20181013145039575-304377688.png)
 
  
 
 2）填写项目信息，如下图所示：
 
-![img](/Users/xujiajie/git/LearnGit/resources/1493506-20181013145344245-815808780.png)
+![img](resources/1493506-20181013145344245-815808780.png)
 
  
 
 3）Clone工程到本地，首先复制ssh 地址
 
-   ![img](/Users/xujiajie/git/LearnGit/resources/1493506-20181013145611210-772982957.png)
+   ![img](/resources/1493506-20181013145611210-772982957.png)
 
  
 
@@ -132,17 +132,17 @@ Mac OS X是基于Unix的，它可以使用非常多Linux平台上开源的优秀
 
    https://github.com/jamesruio/LearnGit.git为刚才复制的ssh路径，终端结果如下：
 
-​    ![img](/Users/xujiajie/git/LearnGit/resources/1493506-20181013150124024-1997993244.png)     
+​    ![img](resources/1493506-20181013150124024-1997993244.png)     
 
 ​    这时，工程已经被克隆到桌面了，如下图：
 
-​    ![img](/Users/xujiajie/git/LearnGit/resources/1493506-20181013150249355-2131758876.png)
+​    ![img](resources/1493506-20181013150249355-2131758876.png)
 
  
 
 5)在Xcode中新创建一个工程，保存的路径为刚刚克隆下来的LearnGit文件夹下，如下图所示：
 
-​                                      ![img](/Users/xujiajie/git/LearnGit/resources/1493506-20181013150541077-1153183249.png)
+​                                      ![img](resources/1493506-20181013150541077-1153183249.png)
 
  
 
@@ -166,8 +166,8 @@ Mac OS X是基于Unix的，它可以使用非常多Linux平台上开源的优秀
 
 ​    *git push*
 
-*![img](/Users/xujiajie/git/LearnGit/resources/1493506-20181013151315997-814014088.png)*
+*![img](resources/1493506-20181013151315997-814014088.png)*
 
 查看GitHub上的项目，LearnGit已经上传成功啦，如下图所示：
 
-![img](/Users/xujiajie/git/LearnGit/resources/1493506-20181013151752904-91209735.png)
+![img](resources/1493506-20181013151752904-91209735.png)
